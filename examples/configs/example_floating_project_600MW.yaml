@@ -62,4 +62,4 @@ install_phases:
   FloatingSubstationInstallation: 0
 
 project_parameters:
-  turbine_capex: 1789  # new assumed turbine price COE Review 2022
+  turbine_capex: 1770  # new assumed turbine price COE Review 2022
