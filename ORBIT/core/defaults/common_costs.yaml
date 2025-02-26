@@ -1,15 +1,15 @@
 # Material costs
 monopile_design:
-  monopile_steel_cost: 3636                     # USD/t
-  tp_steel_cost: 9926                           # USD/t
+  monopile_steel_cost:  2827                    # USD/t
+  tp_steel_cost: 7900                          # USD/t
 
 # Port properties
-port_cost_per_month:  2498449                   # USD/month
+port_cost_per_month:  2061363                  # USD/month
 
 # Export system component cost rates
 export_system_design:
   cable_crossings:
-    crossing_unit_cost: 607253
+    crossing_unit_cost: 508403
 
 # Spar component cost rates
 spar_design:
@@ -20,53 +20,53 @@ spar_design:
 
 # Offshore substation component cost rates
 substation_design:
-  mpt_cost_rate: 15772                          # USD/MW
+  mpt_cost_rate: 12596                          # USD/MW
   topside_fab_cost_rate: 14500                  # USD/t
   topside_design_cost:                          # USD
     #oldHVAC: 4.5e6
-    HVAC:  193140000  
-    HVDC-monopole: 529200000  
-    HVDC-bipole:  856800000  
-  shunt_cost_rate: 44163                        # USD/MW
-  mpt_unit_cost: 2992926                        # USD/mpt
-  shunt_unit_cost: 10428                        # USD/cable
-  switchgear_cost: 4171326                      # USD/cable
-  dc_breaker_cost: 10949731                     # USD/cable
-  backup_gen_cost: 1261792                      # USD
-  workspace_cost: 2523584                       # USD
-  other_ancillary_cost: 3785375                 # USD
+    HVAC:  154612833  
+    HVDC-monopole: 423636281  
+    HVDC-bipole:  685887312  
+  shunt_cost_rate: 35267                        # USD/MW
+  mpt_unit_cost: 2419334                        # USD/mpt
+  shunt_unit_cost: 8430                         # USD/cable
+  switchgear_cost: 3371894                      # USD/cable
+  dc_breaker_cost: 8851223                      # USD/cable
+  backup_gen_cost: 1007643                      # USD
+  workspace_cost: 2015285                       # USD
+  other_ancillary_cost: 3022928                 # USD
   topside_assembly_factor: 0.075                # %
   converter_cost:                               # USD
     HVAC: 0
-    HVDC-monopole: 228600000   
-    HVDC-bipole:  532800000  
-  oss_substructure_cost_rate: 3785              # USD/t
+    HVDC-monopole: 182999346   
+    HVDC-bipole:  426518160  
+  oss_substructure_cost_rate: 3023              # USD/t
   oss_pile_cost_rate: 0                         # USD/t
 
 # Onshore substation component cost rates
 onshore_substation_design:
   onshore_converter_cost:                       # USD
     HVAC: 0  
-    HVDC-monopole: 163724546   
-    HVDC-bipole: 364991025   
-  shunt_unit_cost: 13557                        # USD/cable
-  switchgear_cost: 9729618                      # USD/cable
+    HVDC-monopole: 132346851   
+    HVDC-bipole: 295040751   
+  shunt_unit_cost: 10959                        # USD/cable
+  switchgear_cost: 7864943                      # USD/cable
   compensation_rate:                            # USD/cable
-    HVAC: 32640626   
+    HVAC: 26385073   
     HVDC-monopole: 0  
     HVDC-bipole: 0  
   onshore_construction_rate:                    # USD
-    HVAC: 5214158   
-    HVDC-monopole: 91039190   
-    HVDC-bipole: 104283150  
+    HVAC: 4214868    
+    HVDC-monopole: 73591593   
+    HVDC-bipole: 84297357  
 
-# Semisubmersible component cost rates
+# Semisubmersible component cost rates 
 semisubmersible_design:
-  stiffened_column_CR: 3961                     # USD/t
-  truss_CR: 7935                                # USD/t
-  heave_plate_CR: 7935                          # USD/t
-  secondary_steel_CR: 9205                      # USD/t
+  stiffened_column_CR: 3124                     # USD/t
+  truss_CR: 6258                                # USD/t
+  heave_plate_CR: 6258                          # USD/t
+  secondary_steel_CR: 7260                      # USD/t
 
 # Mooring system component cost rates
 mooring_system_design:                          # USD/m
-  mooring_line_cost_rate: [507.0, 915.0, 1381.0]
+  mooring_line_cost_rate: [400.0, 722.0, 1089.0]
