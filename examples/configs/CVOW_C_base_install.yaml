@@ -10,11 +10,13 @@ plant:
   row_spacing: 5.78
   substation_distance: 1
   turbine_spacing: 7.33
-
+port:
+  sub_assembly_lines: 1  # COE Review 2021
+  turbine_assembly_cranes: 1  # COE Review 2021
 landfall:
   interconnection_distance: 8
   trench_length: 2
-turbine: 15MW_generic
+turbine: 14_7_MW_generic
 oss_design:
   num_substations: 3
 # Vessels
@@ -30,8 +32,7 @@ OffshoreSubstationInstallation:
   num_feeders: 1
 array_system_design:
   cables:
-  - XLPE_630mm_66kV
-  - XLPE_185mm_66kV
+  - _XLPE_630mm_66kV
   location_data: cvow_c_layout_base
 export_system_design:
   cables: XLPE_1200mm_220kV
@@ -57,14 +58,6 @@ install_phases:
   - MonopileInstallation
   - 0.1
 
-#install_phases:
-  #ArrayCableInstallation: 0
-  #ExportCableInstallation: 0
-  #MooredSubInstallation: 0
-  #MooringSystemInstallation: 0
-  #OffshoreSubstationInstallation: 0
-  #TurbineInstallation: 0
-# Project Inputs
 project_parameters:
-  turbine_capex: 1637
-  site_auction_price: 1971276 # 2023 OWMR number for CVOW-C
+  turbine_capex: 1789
+  site_auction_price: 2112957 # 2023 OWMR number for CVOW-C
