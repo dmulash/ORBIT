@@ -1774,14 +1774,13 @@ class ProjectManager:
         Returns project related CapEx line items. To override the defaults,
         the keys below should be passed to the 'project_parameters' subdict.
         """
-
-        site_auction = self.project_params.get("site_auction_price", 122698898)
-        site_assessment = self.project_params.get("site_assessment_cost", 61349449)
+        site_auction = self.project_params.get("site_auction_price", 100000000)
+        site_assessment = self.project_params.get("site_assessment_cost", 50000000)
         construction_plan = self.project_params.get(
-            "construction_plan_cost", 1226989
+            "construction_plan_cost", 1000000
         )
         installation_plan = self.project_params.get(
-            "installation_plan_cost", 306747
+            "installation_plan_cost", 250000
         )
 
         return sum(
